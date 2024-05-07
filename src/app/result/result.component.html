@@ -1,16 +1,10 @@
-<div style="text-align: center;">
-    <h2>{{ gameDetails.name }}</h2>
-    <p>Grade: {{ gameDetails.currentPoint  }}</p>
+<h2>{{ gameDetails.name }}</h2>
+    <p id="j">Your score: {{ gameDetails.currentPoint  }}</p>
     <p>{{ (gameDetails.successesCount / gameDetails.attemptsCount * 100).toFixed(0) || 0 }}% {{ gradeStatus.toString() }}</p>
-  </div>
-  <table style="margin: 0 auto;">
-    <tbody>
+  <body id="p">
       <tr *ngFor="let word of gameDetails.currentCards">
-        <td>{{ word.origin }}</td>
-        <td>{{ word.target }}</td>
+        <td id="x">{{ word.origin }}</td>
+        <td id="z">{{ word.target }}</td>
       </tr>
-    </tbody>
-  </table>
-  <div style="text-align: center; margin-top: 20px;">
-    <button [routerLink]="['/choose']">New Game</button>
-  </div>
+    </body>
+    <button [routerLink]="['/choose']" id="b">New Game</button>

@@ -7,11 +7,12 @@ import { MatDialog } from '@angular/material/dialog';
 import { MatProgressBarModule } from '@angular/material/progress-bar';
 import { Router } from '@angular/router';
 import { GamePoint } from '../../shared/model/game-points';
+import { MatIconModule } from '@angular/material/icon';
 
 @Component({
   selector: 'app-mixed-game',
   standalone: true,
-  imports: [CommonModule,MatProgressBarModule],
+  imports: [CommonModule,MatProgressBarModule,MatIconModule],
   templateUrl: './mixed-game.component.html',
   styleUrl: './mixed-game.component.css'
 })

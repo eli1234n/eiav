@@ -1,6 +1,6 @@
 <div mat-dialog-content>
-    <!-- Are you sure you want to delete category {{ categoryName }} -->
-    <h2 id = "h">Choose game to play</h2>
+   
+    <h2 id = "M">Choose a game to play</h2>
 
 </div>
 <div class="center" mat-dialog-actions>
@@ -8,9 +8,9 @@
         <option value={{gameDetails.getGames()[0].id}}>{{gameDetails.getGames()[0].name}}</option>
         <option value={{gameDetails.getGames()[1].id}}>{{gameDetails.getGames()[1].name}}</option>
     </select><br/>
-    <h2>Difficulty: {{difficulty}}</h2>
-    <h2>Description :{{description}}</h2>
-    <h2>From a list of {{gameDetails.getGames().length}} options</h2>
+    <h2 id="D">Difficulty: {{difficulty}}</h2>
+    <h2 id="A">Description :{{description}}</h2>
+    <h2 id="Z">From a list of {{gameDetails.getGames().length}} options</h2>
  
     <button 
         (click)="sendCategoryGame()"
@@ -18,7 +18,7 @@
         color="primary"
         mat-button 
         [mat-dialog-close]="true"
-        [routerLink]="['/',selectedRoute]">PLAY</button>
+        [routerLink]="['/',selectedRoute]" id="p">PLAY</button>
          
 
     

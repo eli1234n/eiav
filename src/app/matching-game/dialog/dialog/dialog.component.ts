@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component, Inject } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
 import { MAT_DIALOG_DATA, MatDialogActions, MatDialogClose, MatDialogContent } from '@angular/material/dialog';
+import { MatIconModule } from '@angular/material/icon';
 
 import { RouterModule } from '@angular/router';
 
@@ -15,7 +16,7 @@ import { RouterModule } from '@angular/router';
     MatDialogActions,
     MatDialogClose,
     RouterModule,
-    CommonModule 
+    CommonModule ,MatIconModule
   ],
   templateUrl: './dialog.component.html',
   styleUrl: './dialog.component.css',
