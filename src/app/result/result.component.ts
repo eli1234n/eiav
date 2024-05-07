@@ -1,7 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectionStrategy, Component } from '@angular/core';
 import { GamePoint } from '../../shared/model/game-points';
-import { TranslatedWord } from '../../shared/model/translated-word';
 import { RouterModule } from '@angular/router';
 import { GameResult } from '../../shared/model/game-result';
 

@@ -3,8 +3,6 @@ import { MatButtonModule } from '@angular/material/button';
 import { MAT_DIALOG_DATA, MatDialogActions, MatDialogClose, MatDialogContent } from '@angular/material/dialog';
 import { GameService } from '../services/game/game-service';
 import { GameDifficulty } from '../../shared/model/game-difficulty';
-import { NgModule } from '@angular/core';
-import { GameProfile } from '../../shared/model/game-profile';
 import { RouterModule } from '@angular/router';
 import { Category } from '../../shared/model/category';
 

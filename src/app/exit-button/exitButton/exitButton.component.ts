@@ -3,7 +3,6 @@ import { ChangeDetectionStrategy, Component, Input } from '@angular/core';
 import { GameService } from '../../services/game/game-service';
 import { MatDialog } from '@angular/material/dialog';
 import { Category } from '../../../shared/model/category';
-import { DialogComponent } from '../../dialog/dialog.component';
 import { MatIconModule } from '@angular/material/icon';
 
 import { DialogExitComponent } from '../../dialog-exit/dialogExit/dialogExit.component';
@@ -29,10 +28,5 @@ export class ExitButtonComponent {
   openDialog() {
     this.dialogService.open(DialogExitComponent);
 
-    // dialogRef.afterClosed().subscribe(result => {
-    //   if (result) {
-    //     this.categoriesService.delete(id);
-    //     this.dataSource = this.categoriesService.list();
-    //   }});
-  }
-}
+
+}}

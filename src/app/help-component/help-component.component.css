@@ -18,9 +18,9 @@
   #x {
     display: inline-block;
     padding: 5px 5px;
-    background-color: #aae40b;
+    background-color: #e4500b;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: rgb(235, 10, 10);
+    color: rgb(10, 235, 81);
     border: none;
     border-radius: 5px;
     font-size: 25px;
@@ -30,5 +30,5 @@
   
 
   #x:hover {
-    background-color: #160fea; 
+    background-color: #ea0fb7; 
   }
