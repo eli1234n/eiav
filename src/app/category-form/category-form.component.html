@@ -30,7 +30,7 @@
                     <mat-icon>add</mat-icon>
                 </button>
             </div>
-            <div *ngIf="currentCategory.words.length == 0">
+            <div *ngIf="currentCategory.words.length == 0" id="s">
                 A category must have at least one word
             </div>
             <div *ngIf="currentCategory.words.length > 0" ngModelGroup="words" #wordsGroup="ngModelGroup">
